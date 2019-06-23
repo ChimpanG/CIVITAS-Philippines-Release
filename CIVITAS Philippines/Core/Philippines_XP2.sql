@@ -1,0 +1,160 @@
+/*
+	XP2
+	Authors: ChimpanG
+*/
+
+-----------------------------------------------
+-- NamedMountains
+-----------------------------------------------
+
+REPLACE INTO NamedMountains
+		(NamedMountainType,				Name								)
+VALUES	('NAMED_MOUNTAIN_ZAMBALES',		'LOC_NAMED_MOUNTAIN_ZAMBALES'		),
+		('NAMED_MOUNTAIN_SIERRA_MADRE',	'LOC_NAMED_MOUNTAIN_SIERRA_MADRE'	),
+		('NAMED_MOUNTAIN_CARABALLO',	'LOC_NAMED_MOUNTAIN_CARABALLO'		),
+		('NAMED_MOUNTAIN_CORDILLERA',	'LOC_NAMED_MOUNTAIN_CORDILLERA'		);
+
+-----------------------------------------------
+-- NamedMountainCivilizations
+-----------------------------------------------
+
+INSERT INTO NamedMountainCivilizations
+		(CivilizationType,					NamedMountainType				)
+VALUES	('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_MOUNTAIN_ZAMBALES'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_MOUNTAIN_SIERRA_MADRE'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_MOUNTAIN_CARABALLO'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_MOUNTAIN_CORDILLERA'		);
+
+-----------------------------------------------
+-- NamedRivers
+-----------------------------------------------
+
+REPLACE INTO NamedRivers
+		(NamedRiverType,			Name						)
+VALUES	('NAMED_RIVER_PASIG',		'LOC_NAMED_RIVER_PASIG'		),
+		('NAMED_RIVER_AGUSAN',		'LOC_NAMED_RIVER_AGUSAN'	),
+		('NAMED_RIVER_CAGAYAN',		'LOC_NAMED_RIVER_CAGAYAN'	),
+		('NAMED_RIVER_MINDANAO',	'LOC_NAMED_RIVER_MINDANAO'	),
+		('NAMED_RIVER_PAMPANGA',	'LOC_NAMED_RIVER_PAMPANGA'	);
+
+-----------------------------------------------
+-- NamedRiverCivilizations
+-----------------------------------------------
+
+INSERT INTO NamedRiverCivilizations
+		(CivilizationType,					NamedRiverType			)
+VALUES	('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_RIVER_PASIG'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_RIVER_AGUSAN'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_RIVER_CAGAYAN'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_RIVER_MINDANAO'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_RIVER_PAMPANGA'	);
+
+-----------------------------------------------
+-- NamedOceanCivilizations
+-----------------------------------------------
+
+INSERT INTO NamedOceanCivilizations
+		(CivilizationType,					NamedOceanType				)
+VALUES	('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_OCEAN_PACIFIC_OCEAN'	);
+
+-----------------------------------------------
+-- NamedSeas
+-----------------------------------------------
+
+REPLACE INTO NamedSeas
+		(NamedSeaType,				Name							)
+VALUES	('NAMED_SEA_VISAYAN_SEA',	'LOC_NAMED_SEA_VISAYAN_SEA'		),
+		('NAMED_SEA_BOHOL_SEA',		'LOC_NAMED_SEA_BOHOL_SEA'		),
+		('NAMED_SEA_CAMOTES_SEA',	'LOC_NAMED_SEA_CAMOTES_SEA'		),
+		('NAMED_SEA_SIBUYAN_SEA',	'LOC_NAMED_SEA_SIBUYAN_SEA'		),
+		('NAMED_SEA_SAMAR_SEA',		'LOC_NAMED_SEA_SAMAR_SEA'		),
+		('NAMED_SEA_MORO_GULF',		'LOC_NAMED_SEA_MORO_GULF'		),
+		('NAMED_SEA_LEYTE_GULF',	'LOC_NAMED_SEA_LEYTE_GULF'		),
+		('NAMED_SEA_LINGAYEN_GULF',	'LOC_NAMED_SEA_LINGAYEN_GULF'	),
+		('NAMED_SEA_DAVAO_GULF',	'LOC_NAMED_SEA_DAVAO_GULF'		),
+		('NAMED_SEA_PANAY_GULF',	'LOC_NAMED_SEA_PANAY_GULF'		),
+		('NAMED_SEA_LUZON_STRAIT',	'LOC_NAMED_SEA_LUZON_STRAIT'	),
+		('NAMED_SEA_SIBUTU_PASSAGE','LOC_NAMED_SEA_SIBUTU_PASSAGE'	),
+		('NAMED_SEA_MANILA_BAY',	'LOC_NAMED_SEA_MANILA_BAY'		),
+		('NAMED_SEA_BUTUAN_BAY',	'LOC_NAMED_SEA_BUTUAN_BAY'		),
+		('NAMED_SEA_SUBIC_BAY',		'LOC_NAMED_SEA_SUBIC_BAY'		);
+
+-----------------------------------------------
+-- NamedSeaCivilizations
+-----------------------------------------------
+
+INSERT INTO NamedSeaCivilizations
+		(CivilizationType,					NamedSeaType				)
+VALUES	('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_PHILIPPINE_SEA'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_SOUTH_CHINA_SEA'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_SULU_SEA'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_VISAYAN_SEA'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_CELEBES_SEA'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_BOHOL_SEA'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_CAMOTES_SEA'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_SIBUYAN_SEA'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_SAMAR_SEA'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_MORO_GULF'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_LEYTE_GULF'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_LINGAYEN_GULF'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_DAVAO_GULF'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_PANAY_GULF'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_LUZON_STRAIT'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_SIBUTU_PASSAGE'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_MANILA_BAY'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_BUTUAN_BAY'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_SEA_SUBIC_BAY'		);
+
+-----------------------------------------------
+-- NamedVolcanoes
+-----------------------------------------------
+
+REPLACE INTO NamedLakes
+		(NamedLakeType,					Name							)
+VALUES	('NAMED_LAKE_OCHIUL_BEIULUI',	'LOC_NAMED_LAKE_OCHIUL_BEIULUI'	),
+		('NAMED_LAKE_BUCARA',			'LOC_NAMED_LAKE_BUCARA'			),
+		('NAMED_LAKE_CUEJDEL',			'LOC_NAMED_LAKE_CUEJDEL'		),
+		('NAMED_LAKE_CAPRA',			'LOC_NAMED_LAKE_CAPRA'			),
+		('NAMED_LAKE_GALES',			'LOC_NAMED_LAKE_GALES'			),
+		('NAMED_LAKE_TAUL_TAPULUI',		'LOC_NAMED_LAKE_TAUL_TAPULUI'	),
+		('NAMED_LAKE_RAZIM',			'LOC_NAMED_LAKE_RAZIM'			);
+
+-----------------------------------------------
+-- NamedLakeCivilizations
+-----------------------------------------------
+
+INSERT INTO NamedLakeCivilizations
+		(CivilizationType,					NamedLakeType				)
+VALUES	('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_LAKE_OCHIUL_BEIULUI'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_LAKE_BUCARA'			),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_LAKE_CUEJDEL'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_LAKE_CAPRA'			),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_LAKE_GALES'			),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_LAKE_TAUL_TAPULUI'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_LAKE_RAZIM'			);
+
+-----------------------------------------------
+-- NamedVolcanoes
+-----------------------------------------------
+
+REPLACE INTO NamedVolcanoes
+		(NamedVolcanoType,				Name							)
+VALUES	('NAMED_VOLCANO_MAYON',			'LOC_NAMED_VOLCANO_MAYON'		),
+		('NAMED_VOLCANO_PINATUBO',		'LOC_NAMED_VOLCANO_PINATUBO'	),
+		('NAMED_VOLCANO_TAAL',			'LOC_NAMED_VOLCANO_TAAL'		),
+		('NAMED_VOLCANO_BULUSAN',		'LOC_NAMED_VOLCANO_BULUSAN'		),
+		('NAMED_VOLCANO_KANLAON',		'LOC_NAMED_VOLCANO_KANLAON'		),
+		('NAMED_VOLCANO_HIBOK_HIBOK',	'LOC_NAMED_VOLCANO_HIBOK_HIBOK'	);
+
+-----------------------------------------------
+-- NamedVolcanoCivilizations
+-----------------------------------------------
+
+INSERT INTO NamedVolcanoCivilizations
+		(CivilizationType,					NamedVolcanoType			)
+VALUES	('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_VOLCANO_MAYON'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_VOLCANO_PINATUBO'	),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_VOLCANO_TAAL'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_VOLCANO_BULUSAN'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_VOLCANO_KANLAON'		),
+		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_VOLCANO_HIBOK_HIBOK'	);

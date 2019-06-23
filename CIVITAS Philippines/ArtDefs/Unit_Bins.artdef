@@ -3,8 +3,8 @@
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>260</build>
-		<revision>754</revision>
+		<build>415</build>
+		<revision>990</revision>
 	</m_Version>
 	<m_TemplateName text="Units"/>
 	<m_RootCollections>
@@ -153,10 +153,10 @@
 													<m_Fields>
 														<m_Values>
 															<Element class="AssetObjects..BLPEntryValue">
-																<m_EntryName text="Balangay"/>
+																<m_EntryName text="Katipunero_Hat"/>
 																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="Balangay.xlp"/>
-																<m_BLPPackage text="units/balangay"/>
+																<m_XLPPath text="katipunero.xlp"/>
+																<m_BLPPackage text="units/katipunero"/>
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
@@ -167,7 +167,7 @@
 														</m_Values>
 													</m_Fields>
 													<m_ChildCollections/>
-													<m_Name text="Balangay"/>
+													<m_Name text="Katipunero_Hat"/>
 													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 											</Element>
@@ -177,12 +177,12 @@
 									</Element>
 								</Element>
 							</m_ChildCollections>
-							<m_Name text="Balangay"/>
+							<m_Name text="Katipunero"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="Ships"/>
+				<m_Name text="Hats"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

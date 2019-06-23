@@ -3,8 +3,8 @@
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>260</build>
-		<revision>754</revision>
+		<build>415</build>
+		<revision>990</revision>
 	</m_Version>
 	<m_TemplateName text="Landmarks"/>
 	<m_RootCollections>
@@ -43,6 +43,10 @@
 						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="DistrictDamagePillagesBuildings"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="NONE"/>
+							<m_ParamName text="ProceduralPlacementMode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -93,6 +97,18 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="INHERIT"/>
+										<m_ParamName text="Placement"/>
+									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
@@ -141,6 +157,18 @@
 										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="INHERIT"/>
+										<m_ParamName text="Placement"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
@@ -191,6 +219,18 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="INHERIT"/>
+										<m_ParamName text="Placement"/>
+									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
@@ -239,6 +279,18 @@
 										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="INHERIT"/>
+										<m_ParamName text="Placement"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
@@ -289,6 +341,18 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="INHERIT"/>
+										<m_ParamName text="Placement"/>
+									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
@@ -337,6 +401,18 @@
 										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="INHERIT"/>
+										<m_ParamName text="Placement"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
@@ -387,6 +463,18 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="INHERIT"/>
+										<m_ParamName text="Placement"/>
+									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
@@ -435,6 +523,18 @@
 										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="INHERIT"/>
+										<m_ParamName text="Placement"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
@@ -488,6 +588,14 @@
 										<m_BLPPackage text="landmarks/hero_buildings"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
