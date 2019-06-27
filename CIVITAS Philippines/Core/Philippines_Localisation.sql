@@ -53,11 +53,11 @@ VALUES
 -- Rivers
 -----------------------------------------------
 
-	("en_US",	"LOC_NAMED_RIVER_PASIG",		"Pasig"		),
-	("en_US",	"LOC_NAMED_RIVER_AGUSAN",		"Agusan"	),
-	("en_US",	"LOC_NAMED_RIVER_CAGAYAN",		"Cagayan"	),
-	("en_US",	"LOC_NAMED_RIVER_MINDANAO",		"Pulangi"	),
-	("en_US",	"LOC_NAMED_RIVER_PAMPANGA",		"Pampanga"	),
+	("en_US",	"LOC_NAMED_RIVER_PASIG_RIVER",		"Pasig"		),
+	("en_US",	"LOC_NAMED_RIVER_AGUSAN_RIVER",		"Agusan"	),
+	("en_US",	"LOC_NAMED_RIVER_CAGAYAN_RIVER",	"Cagayan"	),
+	("en_US",	"LOC_NAMED_RIVER_MINDANAO_RIVER",	"Pulangi"	),
+	("en_US",	"LOC_NAMED_RIVER_PAMPANGA_RIVER",	"Pampanga"	),
 
 -----------------------------------------------
 -- Lakes
@@ -101,6 +101,19 @@ VALUES
 	("en_US",	"LOC_NAMED_VOLCANO_BULUSAN",		"Bulusan"			),
 	("en_US",	"LOC_NAMED_VOLCANO_KANLAON",		"Kanlaon"			),
 	("en_US",	"LOC_NAMED_VOLCANO_HIBOK_HIBOK",	"Hibok-Hibok"		),
+
+-----------------------------------------------
+-- Lakes
+-----------------------------------------------
+
+	("en_US",	"LOC_NAMED_LAKE_LANAO",				"Lake Lanao"		),
+	("en_US",	"LOC_NAMED_LAKE_TAAL",				"Taal Lake"			),
+	("en_US",	"LOC_NAMED_LAKE_LAIKE_MAINIT",		"Laike Mainit"		),
+	("en_US",	"LOC_NAMED_LAKE_PINATUBO",			"Laike Pinatubo"	),
+	("en_US",	"LOC_NAMED_LAKE_NAUJAN",			"Naujan Lake"		),
+	("en_US",	"LOC_NAMED_LAKE_BULUAN",			"Lake Buluan"		),
+	("en_US",	"LOC_NAMED_LAKE_BATO",				"Lake Bato"			),
+	("en_US",	"LOC_NAMED_LAKE_BUHI",				"Lake Buhi"			),
 
 -----------------------------------------------
 -- Cities
