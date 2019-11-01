@@ -4,6 +4,7 @@
     <Name>CIVITAS [ICON_GOVERNMENT] Philippines</Name>
     <Description>Adds the Philippines as a new civilization</Description>
     <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">1.2,2.0</CompatibleVersions>
+    <Created>1572610324</Created>
     <Teaser>Adds the Philippines as a new civilization</Teaser>
     <Authors>ChimpanG</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -107,91 +108,6 @@
     <File>Core/Philippines_UU.sql</File>
     <File>Core/Philippines_XP1.sql</File>
     <File>Core/Philippines_XP2.sql</File>
-    <File>Platforms/MacOS/BLPs/landmarks/hero_buildings.blp</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Conquistador_RunFwdA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Impr_HeroDeath</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_BlockA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_BraceA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_BraceB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_BraceC</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_CombatIdlePoseA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_CombatIdlePoseB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_CombatIdlePoseC</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_CombatIdlePoseD</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_DodgeBack</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_FlipUnitAndShootInMidAir</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_IdleD</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_ReactB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_RunStopA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_RunStopB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_RunStopC</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_RunStopD</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_ShootAndReload</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_SpawnA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_StrafeBackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_StrafeFwdA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_VictoryA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Ranger_IdlePoseA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Ranger_IdlePoseD</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFlyBackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFromJumpStabFlipUnitInAir</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_MainGunDeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA_NoArms</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_Death</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_HeroDeath</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CVS_Overlay_Philippines</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CVS_Pressure_Philippines</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_COM_Base_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KatipuneroArmor_a_KatipuneroArmor_t</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Katipunero_Hat_a5_Katipunero_Hat_t</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillage_Construction_01_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_A</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_E</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_M</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_N1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Infantry_Armor_ao</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Infantry_Armor_g</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Infantry_Armor_m</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Infantry_Armor_n0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Infantry_Armor_n1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_O</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_ao</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_g</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_m</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_n0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_n1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_H</File>
-    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
-    <File>Platforms/MacOS/BLPs/UI/LensAssets.blp</File>
-    <File>Platforms/MacOS/BLPs/units/katipunero.blp</File>
     <File>Platforms/Windows/BLPs/landmarks/hero_buildings.blp</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>

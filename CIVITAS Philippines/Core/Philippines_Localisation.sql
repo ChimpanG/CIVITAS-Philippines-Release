@@ -106,10 +106,11 @@ VALUES
 -- Lakes
 -----------------------------------------------
 
+	("en_US",	"LOC_NAMED_LAKE_LAGUNA_DE_BAY",		"Laguna de Bay"		),
 	("en_US",	"LOC_NAMED_LAKE_LANAO",				"Lake Lanao"		),
 	("en_US",	"LOC_NAMED_LAKE_TAAL",				"Taal Lake"			),
 	("en_US",	"LOC_NAMED_LAKE_LAIKE_MAINIT",		"Laike Mainit"		),
-	("en_US",	"LOC_NAMED_LAKE_PINATUBO",			"Laike Pinatubo"	),
+	("en_US",	"LOC_NAMED_LAKE_PINATUBO",			"Lake Pinatubo"		),
 	("en_US",	"LOC_NAMED_LAKE_NAUJAN",			"Naujan Lake"		),
 	("en_US",	"LOC_NAMED_LAKE_BULUAN",			"Lake Buluan"		),
 	("en_US",	"LOC_NAMED_LAKE_BATO",				"Lake Bato"			),

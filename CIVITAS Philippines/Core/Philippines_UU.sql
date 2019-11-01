@@ -161,7 +161,7 @@ SELECT	'UNIT_CVS_PHILIPPINES_UU',	-- UnitType
 		PromotionClass,
 		PseudoYieldType,
 		MandatoryObsoleteTech,
-		PrereqTech,
+		NULL, -- PrereqTech
 		'CIVIC_NATIONALISM' -- PrereqCivic
 FROM	Units
 WHERE	UnitType = 'UNIT_RANGER'
