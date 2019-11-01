@@ -50,14 +50,6 @@ VALUES	('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_RIVER_PASIG_RIVER'		),
 		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_RIVER_PAMPANGA_RIVER'	);
 
 -----------------------------------------------
--- NamedSeaCivilizations
------------------------------------------------
-
-INSERT INTO NamedSeaCivilizations
-		(CivilizationType,					NamedSeaType				)
-VALUES	('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_OCEAN_PACIFIC_OCEAN'	);
-
------------------------------------------------
 -- NamedSeas
 -----------------------------------------------
 

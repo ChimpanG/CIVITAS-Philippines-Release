@@ -4,7 +4,7 @@
     <Name>CIVITAS [ICON_GOVERNMENT] Philippines</Name>
     <Description>Adds the Philippines as a new civilization</Description>
     <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">1.2,2.0</CompatibleVersions>
-    <Created>1572610324</Created>
+    <Created>1572612260</Created>
     <Teaser>Adds the Philippines as a new civilization</Teaser>
     <Authors>ChimpanG</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
